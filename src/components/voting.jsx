@@ -15,7 +15,12 @@ const VotingComponent = () => {
       Swal.fire({
         text: 'Cảm ơn bạn đã tham gia bình chọn cho thí sinh!',
         icon: 'success',
-      })
+      }).then((result) => {
+        if (result.isConfirmed) {
+          localStorage.clear();
+          navigate('/votting');
+        } 
+      });
     } else {
       Swal.fire({
         title: 'Thông Báo',
