@@ -92,9 +92,9 @@ const VotingComponent = () => {
 
       {/* MAIN START */}
       <div className="main">
-        <div className="background">
+        {/* <div className="background">
           <img src={background_home} width="100%" alt="" />
-        </div>
+        </div> */}
         <div className="container">
             <h2 className='title'>Bảng bình chọn sinh viên</h2>
           <div className="list-user">
