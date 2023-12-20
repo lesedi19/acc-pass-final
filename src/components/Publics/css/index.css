@@ -444,6 +444,13 @@ img.mob{
         width: 240px;
     }
 
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
     .logo img{
         display: block;
         width: 45%;
