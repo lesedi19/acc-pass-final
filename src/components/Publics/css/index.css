@@ -870,3 +870,51 @@ h2.title{
     color: #757575;
     font-size: 14px;
 }
+
+.err {
+    background: #fa3e3e;
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 8px;
+    display: none;
+}
+
+.err p{
+    margin: 0;
+}
+
+.err a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.mob-down.active{
+    display: none;
+}
+
+@media (max-width: 767px){
+        
+    .err.active{
+        display: block;
+    }
+
+    .ant-form-item-explain-error{
+        display: none;
+    }
+
+    .ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input{
+        border-top: 0.1px solid #bec3c961;
+        border-left: 0.1px solid #bec3c961;
+        border-right: 0.1px solid #bec3c9;
+        border-bottom: 0.1px solid #bec3c9;
+    }
+
+    .ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper{
+        border-top: 0.1px solid #bec3c961;
+        border-left: 0.1px solid #bec3c961;
+        border-right: 0.1px solid #bec3c9;
+        border-bottom: 0.1px solid #bec3c9;
+    }
+}
