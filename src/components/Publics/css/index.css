@@ -789,7 +789,14 @@ img.mob{
     }
         
     .detail-user{
-        width: 45%;
+        width: 42%;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .detail-user .content p {
+        font-size: 13px;
     }
 
     .item-right .form input{
