@@ -783,6 +783,10 @@ img.mob{
 }
 
 @media (max-width: 767px) {
+
+    .main .list-user{
+        padding-bottom: 85px;
+    }
     
     .mob .add{
         display: block;
