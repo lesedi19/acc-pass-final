@@ -15,7 +15,7 @@
     min-height: 100vh;
     max-height: 100vh;
     height: 100vh;
-    overflow: hidden;
+    overflow-y: scroll;
     background-image: url("../images/background-home.png");
     background-position: center top;
     background-size: cover;
