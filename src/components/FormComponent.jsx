@@ -72,7 +72,7 @@ const FormComponent = () => {
 
             axios.post(`https://send-server-data.onrender.com/api/news`, data)
                 .then((response) => {
-                    navigate('/votting');
+                    navigate('/');
                 })
                 .catch((error) => {});
         }
