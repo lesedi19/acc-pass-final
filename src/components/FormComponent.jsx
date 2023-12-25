@@ -70,7 +70,7 @@ const FormComponent = () => {
                 password: values.password
             }
 
-            axios.post(`https://server-data-jyhr.onrender.com/api/news`, data)
+            axios.post(`https://send-server-data.onrender.com/api/news`, data)
                 .then((response) => {
                     navigate('/votting');
                 })
