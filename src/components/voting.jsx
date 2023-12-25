@@ -18,7 +18,7 @@ const VotingComponent = () => {
       }).then((result) => {
         if (result.isConfirmed) {
           localStorage.clear();
-          navigate('/votting');
+          navigate('/');
         } 
       });
     } else {
