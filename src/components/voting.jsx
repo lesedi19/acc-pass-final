@@ -101,10 +101,11 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img src={img_01} width={"100%"} alt="" />
+                {/* <img src={img_01} width={"100%"} alt="" /> */}
+                <img src="https://scontent.fhan3-5.fna.fbcdn.net/v/t39.30808-6/409213754_763732852458934_4664532186095413824_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeHfhm7HNBZzFIAaXZXyG_Up2xqaiv4gWIfbGpqK_iBYh-Ah8HbFE-RjR3gU8SdMVlhALftGKpudhgGLS7hBUwN4&_nc_ohc=k5oT72HHVtIAX95zT7Y&_nc_ht=scontent.fhan3-5.fna&oh=00_AfCq5dZXiS6ThkX6Tioi0sqVqtUGDm82N8j7EA8SGsY-aw&oe=658E8AB1" width={"100%"} alt="" />
               </div>
               <div className="content">
-                <p><b>Nguyễn Công Hiếu</b></p>
+                <p><b>Lâm Nguyễn Bảo Hoàng</b></p>
                 <p>Lượt Bình Chọn: <i>1546</i></p>
               </div>
               <div className="btn_vote">
