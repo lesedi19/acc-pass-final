@@ -96,7 +96,7 @@ const VotingComponent = () => {
           <img src={background_home} width="100%" alt="" />
         </div> */}
         <div className="container">
-            <h2 className='title'>Bảng bình chọn sinh viên</h2>
+            <h2 className='title'>DANH SÁCH THÍ SINH</h2>
           <div className="list-user">
 
             <div className="detail-user"  onClick={showAlert}>
