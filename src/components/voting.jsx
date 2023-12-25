@@ -117,7 +117,6 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img src={img_02} width={"100%"} alt="" />
                 <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t39.30808-6/409178631_763732865792266_7008890459244281087_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeE4pp5xw31znrWoUeZYlw-q-lJrta3tojD6Umu1re2iMFvDKXeVRX1JMWKFpSRtxur-Bv17cHgOXLc7SR7GgriH&_nc_ohc=ug5T1Ot5cdgAX_9IO6B&_nc_ht=scontent.fhan3-2.fna&oh=00_AfC8VM7j2dXrgyFeakT-ScWqdLKJMOTwWj_Ru_8mn_cO1A&oe=658E88C7" width={"100%"} alt="" />
               </div>
               <div className="content">
