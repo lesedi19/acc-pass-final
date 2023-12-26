@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 .agency-page *{
-    font-family: sans-serif;
+    font-family: Arial, Helvetica;
 }
 
 .login-form *{
