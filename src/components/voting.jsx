@@ -23,8 +23,8 @@ const VotingComponent = () => {
       });
     } else {
       Swal.fire({
-        title: 'Lỗi',
-        text: 'Vui lòng đăng nhập để tính lượt bình chọn!',
+        title: 'Lỗi!',
+        text: 'Vui lòng đăng nhập để tính lượt bình chọn.',
         icon: 'error',
         cancelButtonText: 'Hủy',
         showCancelButton: true,
