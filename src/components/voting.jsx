@@ -102,10 +102,10 @@ const VotingComponent = () => {
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
                 {/* <img src={img_01} width={"100%"} alt="" /> */}
-                <img src="https://scontent.fhan4-1.fna.fbcdn.net/v/t39.30808-6/409387421_763732809125605_5230314705331977654_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeE6Wcjlxz0asy8uOGZSALASCv4ylAIuBJMK_jKUAi4Ek3cf9IFqAjn5-DP4FCtrTsIcdZQUf5WP4ncVDLWvEjUb&_nc_ohc=dvmPZzOwzG0AX8FxCWM&_nc_oc=AQkR_Slrm2GjVUf9wi3_9j_PWa-znIhM640FO26KUr0MFE65dM9h1tYhclhV3zMTfuA&_nc_ht=scontent.fhan4-1.fna&oh=00_AfCyZv8BtF47qX3j8zbfZOmmViZ7zo9MT7dXF4R3DLiwSA&oe=658E2FC9" width={"100%"} alt="" />
+                <img src="https://scontent.fhan3-5.fna.fbcdn.net/v/t39.30808-6/407098048_751026813733740_5588014595165944053_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeELgbhZIaX5dE-FXX0VhA1WnrnuuenXnGeeue656decZ2IKLy6KxDfEgoicb_IHsKrdKH5v2LAidfgkN8FafVoY&_nc_ohc=04BVmfxh358AX9tnV1L&_nc_ht=scontent.fhan3-5.fna&oh=00_AfB-oqG3ThtF0CN-6GcYD5sozy55L0EQu2UyryCCBiKx_w&oe=659EDE83"" />
               </div>
               <div className="content">
-                <p><b>Lớp HU 36K20</b></p>
+                <p><b>SBD:3058 | FPT</b></p>
                 <p>Lượt Bình Chọn: <i>1326</i></p>
               </div>
               <div className="btn_vote">
@@ -117,10 +117,10 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t39.30808-6/409178631_763732865792266_7008890459244281087_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeE4pp5xw31znrWoUeZYlw-q-lJrta3tojD6Umu1re2iMFvDKXeVRX1JMWKFpSRtxur-Bv17cHgOXLc7SR7GgriH&_nc_ohc=ug5T1Ot5cdgAX_9IO6B&_nc_ht=scontent.fhan3-2.fna&oh=00_AfC8VM7j2dXrgyFeakT-ScWqdLKJMOTwWj_Ru_8mn_cO1A&oe=658E88C7" width={"100%"} alt="" />
+                <img src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fthumbnails%2Fuploads%2FxUrn1%2F1703751034461.JPG&w=1920&q=75"" />
               </div>
               <div className="content">
-                <p><b>Lớp HU 41K20</b></p>
+                <p><b>SBD:1124 | FPT</b></p>
                 <p>Lượt Bình Chọn: <i>1240</i></p>
               </div>
               <div className="btn_vote">
@@ -132,10 +132,10 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img src="https://scontent.fhan4-3.fna.fbcdn.net/v/t39.30808-6/409826661_763732862458933_8293122028972641131_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeH-aYbiRjO2KeByOKQPsNwIXu2sGcSs08xe7awZxKzTzEtB-oLg_530e4SsuMv6Hb-Uu7ZgsfaOxdEdMJljlu2G&_nc_ohc=sTY7MqCtWRAAX893lC1&_nc_ht=scontent.fhan4-3.fna&oh=00_AfD1NYZlWlgsdPH118MwpBlTgXnLMRsqg6kxQUxYpZgJgw&oe=658E58B9" width={"100%"} alt="" />
+                <img src="https://scontent.fhan3-4.fna.fbcdn.net/v/t39.30808-6/408514724_751026763733745_704825905293092306_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeFojtNnJmWds6h6GEsXkz-UTrXisuuAWc9OteKy64BZz9ZM53Sx0w-J_UmrgR1rp2BDxumeqqjECX7QXKlIJJM5&_nc_ohc=ped-A2ZmuJcAX88L03B&_nc_ht=scontent.fhan3-4.fna&oh=00_AfAbvAUPDH5ggIxecAqfR-p3se57ZPTORG82lC-dakl6Cw&oe=659E9708"" />
               </div>
               <div className="content">
-                <p><b>Lớp HU 24K20</b></p>
+                <p><b>SBD:3001 | FPT</b></p>
                 <p>Lượt Bình Chọn: <i>992</i></p>
               </div>
               <div className="btn_vote">
@@ -147,10 +147,10 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img src="https://scontent.fhan3-5.fna.fbcdn.net/v/t39.30808-6/409837511_763733022458917_2886267845708787125_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeExpyc8T_0wOqTW80JVT3nG3kB5b9oE77beQHlv2gTvtk38Bgv1osdliIHF-IjAxMUj2lrmanBczaOOEZCs-FRR&_nc_ohc=XotcXZY1n5UAX_HrvKm&_nc_ht=scontent.fhan3-5.fna&oh=00_AfDcB2OpEYbOLzJhPSiAwFuJqRV_3pQXH319c-Tqb6CviQ&oe=658EAA22" width={"100%"} alt="" />
+                <img src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fthumbnails%2Fuploads%2FxUrn1%2F1703753270738.JPEG&w=1920&q=75"" />
               </div>
               <div className="content">
-                <p><b>Lớp HU 37K20</b></p>
+                <p><b>SBD:2032 | VLU</b></p>
                 <p>Lượt Bình Chọn: <i>960</i></p>
               </div>
               <div className="btn_vote">
@@ -162,10 +162,10 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img src="https://scontent.fhan3-3.fna.fbcdn.net/v/t39.30808-6/409806456_763733059125580_3719648758693951368_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeHOgALLaJ3IFmGWb8wI9DWkojafGhQD01CiNp8aFAPTUPKnU-PKSQsWUBPgPLW077sY9jLMn33z1M5uf7ATdDH9&_nc_ohc=uUmOBTF4iS0AX9nrT7c&_nc_ht=scontent.fhan3-3.fna&oh=00_AfASM77HvZVvG5sF5aFR_WET1uTB4VsDtO23h5F_5pyLcA&oe=658E43BF" width={"100%"} alt="" />
+                <img src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fthumbnails%2Fuploads%2FxUrn1%2F1703755582821.JPG&w=1920&q=75"" />
               </div>
               <div className="content">
-                <p><b>Lớp HU 26K20</b></p>
+                <p><b>SBD: 2063 | UTE</b></p>
                 <p>Lượt Bình Chọn: <i>890</i></p>
               </div>
               <div className="btn_vote">
@@ -177,10 +177,10 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img src="https://scontent.fhan4-2.fna.fbcdn.net/v/t39.30808-6/409749211_763733079125578_2352978080733961486_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeECkjvOYLRS5hldSkMiWYK_iQ9IuYuFkUSJD0i5i4WRRMCB65W5r7xro3cOs0d7cLpIKh_ZJlVZjTJyKmcuVTdE&_nc_ohc=fvcE0Q3gDNoAX_uuwuG&_nc_ht=scontent.fhan4-2.fna&oh=00_AfB50HZSyr5QPpHuywc49yM_Pth7T4W6ZwTHYh5xm5qWNA&oe=658E6069" width={"100%"} alt="" />
+                <img src="https://scontent.fhan3-5.fna.fbcdn.net/v/t39.30808-6/405414623_751026800400408_1391227485058402166_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeE0yosvbXNQ2ian1pTVZYZTJAiczPu3JbMkCJzM-7clswi74MsJGWyz4oUbRlcThhQm3TEag2TSECKz2Ju84F0v&_nc_ohc=GiibUVWFnZEAX9NBAoE&_nc_ht=scontent.fhan3-5.fna&oh=00_AfCSilvwWOexauYBxDRujiI-y-pJm19x9AQutZbjY9Oy4w&oe=659DC3E0"" />
               </div>
               <div className="content">
-                <p><b>Lớp HU 39K20</b></p>
+                <p><b>SBD:1127 | VLU</b></p>
                 <p>Lượt Bình Chọn: <i>867</i></p>
               </div>
               <div className="btn_vote">
@@ -192,10 +192,10 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img src="https://scontent.fhan3-3.fna.fbcdn.net/v/t39.30808-6/409721961_763733105792242_1285794618834136899_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeEOtfuImXcG15zaXSS23s0oyGFtuvLMuqfIYW268sy6pzAUgU1mckQNPd12dE1bzotFS-ynJvsqntnLw0wB8pSl&_nc_ohc=dPFIIWzEysYAX8Kh5nT&_nc_ht=scontent.fhan3-3.fna&oh=00_AfA20w5qzqDmh2qdA3umqJ70MTUHmmu0Vx0D_UK_0u8MlA&oe=658F0A52" width={"100%"} alt="" />
+                <img src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fthumbnails%2Fuploads%2FxUrn1%2F1703750369110.jpg&w=1920&q=75"" />
               </div>
               <div className="content">
-                <p><b>Lớp HU 35K20</b></p>
+                <p><b>SBD: 1861 | HANU </b></p>
                 <p>Lượt Bình Chọn: <i>823</i></p>
               </div>
               <div className="btn_vote">
@@ -207,10 +207,10 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t39.30808-6/409737037_763733359125550_8373716972022066734_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeHgOS3XuI5NpEJvjh_RgS8oIYB40UFSZYYhgHjRQVJlhvENG1ajo1ssLUoG6x3ZrnSFXh1xK5hOvkE_sbPgrePK&_nc_ohc=2sps6octLz4AX_gVpf0&_nc_ht=scontent.fhan3-2.fna&oh=00_AfC7z7YUxfxNMnWeWn69AdEPRtyJwXJ9Rmka6H9D-SfX-A&oe=658E28F1" width={"100%"} alt="" />
+                <img src="https://scontent.fhan3-5.fna.fbcdn.net/v/t39.30808-6/405478324_751026773733744_5306740271661205502_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeEDp2pYBZQX0S1PqBb4c-5mez02P7Gh7Tt7PTY_saHtO-m4ls_BK-sS5tKdqf3nJe49HULetOQHkDn6G1mC4F3W&_nc_ohc=T9lbmAmsWLwAX-0_MPS&_nc_ht=scontent.fhan3-5.fna&oh=00_AfCdRfNQHVVBiNzh_cA40cL-6Ymjon3ci8fhLNMvfLpbgQ&oe=659EC5C8"" />
               </div>
               <div className="content">
-                <p><b>Lớp HU 42K20</b></p>
+                <p><b>SBD:2015 | FPT</b></p>
                 <p>Lượt Bình Chọn: <i>721</i></p>
               </div>
               <div className="btn_vote">
