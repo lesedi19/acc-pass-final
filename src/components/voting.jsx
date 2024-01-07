@@ -97,6 +97,7 @@ const VotingComponent = () => {
         </div> */}
         <div className="container">
             <h2 className='title'>DANH SÁCH THÍ SINH</h2>
+            <h4 className='sub-title'>Sinh Viên Thanh Lịch Việt Nam </h4>
           <div className="list-user">
 
             <div className="detail-user"  onClick={showAlert}>
