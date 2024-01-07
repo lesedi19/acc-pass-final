@@ -62,6 +62,7 @@ const VotingComponent = () => {
           <div className="menu_set">
             <div className="container">
               <div className="logo">
+                
                 <Link to="#">
                   <img width="100%" src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fuploads%2FxUrn1%2F1701272244471.jpg&w=256&q=75" width="100%" alt="Logo Digital Services" />
                 </Link>
