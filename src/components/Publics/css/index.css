@@ -16,9 +16,11 @@
     max-height: 100vh;
     height: 100vh;
     overflow-y: scroll;
-    background-image: url("https://qnuni.fpt.edu.vn/Data/Sites/1/media/hinh-gioi-thieu-dai-hoc-fpt/hcm.png");
-    background-position: center top;
+    background-image: url("https://media-platform.1vote.vn/uploads/xUrn1/1701359757119.jpg");
+    background-color: white;
+    background-attachment: fixed;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .header {
