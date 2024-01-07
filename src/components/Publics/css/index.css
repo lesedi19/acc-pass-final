@@ -945,3 +945,14 @@ h2.title{
     text-align: center;
     margin: auto;
 }
+
+.main-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-title *{
+    color: black;
+}
