@@ -136,7 +136,7 @@
     }
 
     .header .header_mobile .menu_set {
-        padding: 0px 0px;
+        padding: 5px 0px;
         background-color:transparent;
         position: relative;
         z-index: 999;
@@ -453,10 +453,9 @@ img.mob{
 
     .logo img{
         display: block;
-        width: 75%;
+        width: 100%;
         text-align: center;
-        margin: 35%;
-        margin-bottom: 10px;
+        margin: 0;
     }
     
     img.mob{
