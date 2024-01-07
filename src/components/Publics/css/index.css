@@ -136,7 +136,7 @@
     }
 
     .header .header_mobile .menu_set {
-        padding: 5px 0px;
+        padding: 0px 0px;
         background-color:transparent;
         position: relative;
         z-index: 999;
