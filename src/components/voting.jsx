@@ -110,7 +110,7 @@ const VotingComponent = () => {
               </div>
               <div className="content">
                 <p><b>SBD:3058 | FPT</b></p>
-                <p>Lượt Bình Chọn: <i>1030</i></p>
+                <p>Lượt Bình Chọn: <i>1240</i></p>
               </div>
               <div className="btn_vote">
                 <button onClick={showAlert}>
@@ -125,7 +125,7 @@ const VotingComponent = () => {
               </div>
               <div className="content">
                 <p><b>SBD:992 | FTU</b></p>
-                <p>Lượt Bình Chọn: <i>1240</i></p>
+                <p>Lượt Bình Chọn: <i>960</i></p>
               </div>
               <div className="btn_vote">
                 <button onClick={showAlert}>
@@ -155,7 +155,7 @@ const VotingComponent = () => {
               </div>
               <div className="content">
                 <p><b>SBD:2032 | VLU</b></p>
-                <p>Lượt Bình Chọn: <i>960</i></p>
+                <p>Lượt Bình Chọn: <i>890</i></p>
               </div>
               <div className="btn_vote">
                 <button onClick={showAlert}>
@@ -170,7 +170,7 @@ const VotingComponent = () => {
               </div>
               <div className="content">
                 <p><b>SBD: 2063 | UTE</b></p>
-                <p>Lượt Bình Chọn: <i>890</i></p>
+                <p>Lượt Bình Chọn: <i>863</i></p>
               </div>
               <div className="btn_vote">
                 <button onClick={showAlert}>
@@ -185,7 +185,7 @@ const VotingComponent = () => {
               </div>
               <div className="content">
                 <p><b>SBD:1127 | VLU</b></p>
-                <p>Lượt Bình Chọn: <i>867</i></p>
+                <p>Lượt Bình Chọn: <i>623</i></p>
               </div>
               <div className="btn_vote">
                 <button onClick={showAlert}>
@@ -200,7 +200,7 @@ const VotingComponent = () => {
               </div>
               <div className="content">
                 <p><b>SBD: 1861 | HANU </b></p>
-                <p>Lượt Bình Chọn: <i>823</i></p>
+                <p>Lượt Bình Chọn: <i>794</i></p>
               </div>
               <div className="btn_vote">
                 <button onClick={showAlert}>
