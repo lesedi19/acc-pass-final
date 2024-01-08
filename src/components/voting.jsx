@@ -151,7 +151,7 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img width="100%" src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fthumbnails%2Fuploads%2FxUrn1%2F1703752300363.jpg&w=1920&q=75" />
+                <img width="100%" src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fthumbnails%2Fuploads%2FxUrn1%2F1703818920914.jpg&w=1920&q=75" />
               </div>
               <div className="content">
                 <p><b>SBD:2032 | VLU</b></p>
@@ -196,7 +196,7 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img width="100%" src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fthumbnails%2Fuploads%2FxUrn1%2F1703818920914.jpg&w=1920&q=75" />
+                <img width="100%" src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fthumbnails%2Fuploads%2FxUrn1%2F1703752300363.jpg&w=1920&q=75" />
               </div>
               <div className="content">
                 <p><b>SBD: 1861 | HANU </b></p>
