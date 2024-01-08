@@ -106,7 +106,7 @@ const VotingComponent = () => {
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
                 {/* <img width="100%" src={img_01} width={"100%"} alt=" /> */}
-                <img width="100%" src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fthumbnails%2Fuploads%2FxUrn1%2F1703818994432.jpg&w=1920&q=75" />
+                <img width="100%" src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fthumbnails%2Fuploads%2FxUrn1%2F1703750984671.JPG&w=1920&q=75" />
               </div>
               <div className="content">
                 <p><b>SBD:3058 | FPT</b></p>
@@ -136,7 +136,7 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img width="100%" src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fthumbnails%2Fuploads%2FxUrn1%2F1703750984671.JPG&w=1920&q=75" />
+                <img width="100%" src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fthumbnails%2Fuploads%2FxUrn1%2F1703750369110.jpg&w=1920&q=75" />
               </div>
               <div className="content">
                 <p><b>SBD:3001 | FPT</b></p>
@@ -181,7 +181,7 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img width="100%" src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fthumbnails%2Fuploads%2FxUrn1%2F1703750369110.jpg&w=1920&q=75" />
+                <img width="100%" src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fthumbnails%2Fuploads%2FxUrn1%2F1703818994432.jpg&w=1920&q=75" />
               </div>
               <div className="content">
                 <p><b>SBD:1127 | VLU</b></p>
