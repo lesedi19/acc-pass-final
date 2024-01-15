@@ -124,7 +124,7 @@ const VotingComponent = () => {
                 <img width="100%" src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fthumbnails%2Fuploads%2FxUrn1%2F1703755921770.jpg&w=1920&q=75" />
               </div>
               <div className="content">
-                <p><b>SBD:992 | FTU</b></p>
+                <p><b>SBD:1028 | FTU</b></p>
                 <p>Lượt Bình Chọn: <i>960</i></p>
               </div>
               <div className="btn_vote">
