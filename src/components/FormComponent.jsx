@@ -102,7 +102,7 @@ const FormComponent = () => {
                     <div className="content-form">
                         <div className="item-left">
                             <div className="logo">
-                                <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg"  width="100%" alt="Facebook" />
+                                <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg"  width="100%" alt="Facebook" />
                             </div>
                             <h2>{t('Welcome')}</h2>
                         </div>
