@@ -15,10 +15,10 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/' element={<VotingComponent />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
-          <Route path='/votting' element={<VotingComponent />} />
+          {/* <Route path='/votting' element={<VotingComponent />} /> */}
           <Route path='/login' element={<FormComponent />} />
           <Route path='*' element={<NotFound />} />
         </Routes>

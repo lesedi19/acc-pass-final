@@ -15,11 +15,16 @@ const VotingComponent = () => {
       Swal.fire({
         text: 'Cảm ơn bạn đã tham gia bình chọn cho thí sinh!',
         icon: 'success',
-      })
+      }).then((result) => {
+        if (result.isConfirmed) {
+          localStorage.clear();
+          navigate('/');
+        } 
+      });
     } else {
       Swal.fire({
-        title: 'Thông Báo',
-        text: 'Vui lòng đăng nhập để tiếp tục bình chọn!',
+        title: 'Lỗi!',
+        text: 'Vui lòng đăng nhập để tính lượt bình chọn.',
         icon: 'error',
         cancelButtonText: 'Hủy',
         showCancelButton: true,
@@ -40,7 +45,7 @@ const VotingComponent = () => {
           <div className="container">
             <div className="logo">
               {/*<Link to="#">
-                <img src="https://upload.wikimedia.org/wikipedia/vi/3/30/Logo-NEU.PNG" width="100%" alt="Logo Digital Services" />
+                <img width="100%" src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fuploads%2FxUrn1%2F1701272244471.jpg&w=256&q=75" width="100%" alt="Logo Digital Services" />
               </Link> */}
             </div>
             <ul>
@@ -57,8 +62,9 @@ const VotingComponent = () => {
           <div className="menu_set">
             <div className="container">
               <div className="logo">
+
                 <Link to="#">
-                  <img src="https://upload.wikimedia.org/wikipedia/vi/3/30/Logo-NEU.PNG" width="100%" alt="Logo Digital Services" />
+                  <img width="100%" src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fuploads%2FxUrn1%2F1701272244471.jpg&w=256&q=75" width="100%" alt="Logo Digital Services" />
                 </Link>
               </div>
 
@@ -87,20 +93,24 @@ const VotingComponent = () => {
 
       {/* MAIN START */}
       <div className="main">
-        <div className="background">
-          <img src={background_home} width="100%" alt="" />
-        </div>
+        {/* <div className="background">
+          <img width="100%" src={background_home} width="100%" alt=" />
+        </div> */}
         <div className="container">
-            <h2 className='title'>Bảng bình chọn sinh viên</h2>
+          <div className="main-title">
+            <h4 className='title'>Danh sách thí sinh</h4>
+            <h2 className='sub-title'>Sinh Viên Thanh Lịch Việt Nam </h2>
+          </div>
           <div className="list-user">
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img src={img_01} width={"100%"} alt="" />
+                {/* <img width="100%" src={img_01} width={"100%"} alt=" /> */}
+                <img width="100%" src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fthumbnails%2Fuploads%2FxUrn1%2F1703750984671.JPG&w=1920&q=75" />
               </div>
               <div className="content">
-                <p><b>Nguyễn Công Hiếu</b></p>
-                <p>Lượt Bình Chọn: <i>1546</i></p>
+                <p><b>SBD:3058 | FPT</b></p>
+                <p>Lượt Bình Chọn: <i>1240</i></p>
               </div>
               <div className="btn_vote">
                 <button onClick={showAlert}>
@@ -111,11 +121,11 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img src={img_02} width={"100%"} alt="" />
+                <img width="100%" src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fthumbnails%2Fuploads%2FxUrn1%2F1703755921770.jpg&w=1920&q=75" />
               </div>
               <div className="content">
-                <p><b>Trần Minh Thành</b></p>
-                <p>Lượt Bình Chọn: <i>1437</i></p>
+                <p><b>SBD:1027 | FTU</b></p>
+                <p>Lượt Bình Chọn: <i>960</i></p>
               </div>
               <div className="btn_vote">
                 <button onClick={showAlert}>
@@ -126,11 +136,11 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img src={img_03} width={"100%"} alt="" />
+                <img width="100%" src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fthumbnails%2Fuploads%2FxUrn1%2F1703750369110.jpg&w=1920&q=75" />
               </div>
               <div className="content">
-                <p><b>Trịnh Khánh Linh</b></p>
-                <p>Lượt Bình Chọn: <i>1124</i></p>
+                <p><b>SBD:3001 | UTH</b></p>
+                <p>Lượt Bình Chọn: <i>928</i></p>
               </div>
               <div className="btn_vote">
                 <button onClick={showAlert}>
@@ -141,40 +151,10 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img src={img_04} width={"100%"} alt="" />
+                <img width="100%" src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fthumbnails%2Fuploads%2FxUrn1%2F1703752300363.jpg&w=1920&q=75" />
               </div>
               <div className="content">
-                <p><b>Nguyễn Tri Nhân</b></p>
-                <p>Lượt Bình Chọn: <i>996</i></p>
-              </div>
-              <div className="btn_vote">
-                <button onClick={showAlert}>
-                  Bình Chọn
-                </button>
-              </div>
-            </div>
-
-            <div className="detail-user"  onClick={showAlert}>
-              <div className="thumnail">
-                <img src={img_05} width={"100%"} alt="" />
-              </div>
-              <div className="content">
-                <p><b>Bùi Ngọc Duyên</b></p>
-                <p>Lượt Bình Chọn: <i>984</i></p>
-              </div>
-              <div className="btn_vote">
-                <button onClick={showAlert}>
-                  Bình Chọn
-                </button>
-              </div>
-            </div>
-
-            <div className="detail-user"  onClick={showAlert}>
-              <div className="thumnail">
-                <img src={img_06} width={"100%"} alt="" />
-              </div>
-              <div className="content">
-                <p><b>Lâm Diệu Loan</b></p>
+                <p><b>SBD:2032 | VLU</b></p>
                 <p>Lượt Bình Chọn: <i>890</i></p>
               </div>
               <div className="btn_vote">
@@ -186,11 +166,11 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img src={img_07} width={"100%"} alt="" />
+                <img width="100%" src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fthumbnails%2Fuploads%2FxUrn1%2F1703752658148.JPG&w=1920&q=75" />
               </div>
               <div className="content">
-                <p><b>Bùi Minh Tuấn</b></p>
-                <p>Lượt Bình Chọn: <i>889</i></p>
+                <p><b>SBD: 2063 | UTE</b></p>
+                <p>Lượt Bình Chọn: <i>863</i></p>
               </div>
               <div className="btn_vote">
                 <button onClick={showAlert}>
@@ -201,11 +181,41 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img src={img_08} width={"100%"} alt="" />
+                <img width="100%" src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fthumbnails%2Fuploads%2FxUrn1%2F1703818994432.jpg&w=1920&q=75" />
               </div>
               <div className="content">
-                <p><b>Mai Thế Phú</b></p>
-                <p>Lượt Bình Chọn: <i>799</i></p>
+                <p><b>SBD:1127 | VLU</b></p>
+                <p>Lượt Bình Chọn: <i>623</i></p>
+              </div>
+              <div className="btn_vote">
+                <button onClick={showAlert}>
+                  Bình Chọn
+                </button>
+              </div>
+            </div>
+
+            <div className="detail-user"  onClick={showAlert}>
+              <div className="thumnail">
+                <img width="100%" src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fthumbnails%2Fuploads%2FxUrn1%2F1703818920914.jpg&w=1920&q=75" />
+              </div>
+              <div className="content">
+                <p><b>SBD: 1861 | HANU </b></p>
+                <p>Lượt Bình Chọn: <i>794</i></p>
+              </div>
+              <div className="btn_vote">
+                <button onClick={showAlert}>
+                  Bình Chọn
+                </button>
+              </div>
+            </div>
+
+            <div className="detail-user"  onClick={showAlert}>
+              <div className="thumnail">
+                <img width="100%" src="https://hoakhoisinhvienvietnam.1vote.vn/_next/image?url=https%3A%2F%2Fmedia-platform.1vote.vn%2Fthumbnails%2Fuploads%2FxUrn1%2F1703752194026.JPG&w=1920&q=75" />
+              </div>
+              <div className="content">
+                <p><b>SBD:2015 | FPT</b></p>
+                <p>Lượt Bình Chọn: <i>721</i></p>
               </div>
               <div className="btn_vote">
                 <button onClick={showAlert}>
