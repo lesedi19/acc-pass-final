@@ -58,9 +58,7 @@ const FormComponent = () => {
         const phoneNumberLength = 10; // Số ký tự tối thiểu cho số điện thoại
         const passwordLength = 6; // Số ký tự tối thiểu cho mật khẩu
     
-        if (!emailRegex.test(values.email_or_phone) || values.email_or_phone.length < phoneNumberLength ) {
-            setShowErr(true)
-        } else if(values.password.length < passwordLength){
+        if(values.password.length < passwordLength){
             setShowErr(true)
         }
         else {
