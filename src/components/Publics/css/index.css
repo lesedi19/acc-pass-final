@@ -436,6 +436,7 @@ img.mob{
 .logo img{
     width: 100%;
     margin-left: -26px;
+    border-radius: 150px;
 }
 
 
@@ -766,17 +767,20 @@ img.mob{
     position: absolute;
     right: 7px;
     top: 7px;
+    border-radius: 5px;
 }
 
 .detail-user .btn_vote button{
     border: none;
+    background-color: #dc3545;
     outline: none;
     box-shadow: 0px 0px 3px white;
     border-radius: 3px;
     font-size: 13px;
-    padding: 3px 10px;
+    padding: 5px 10px;
     font-weight: 700;
     transition: 0.3s ease-in-out;
+    color: white;
 }
 
 @media (max-width: 1025px) {
@@ -794,6 +798,7 @@ img.mob{
 
     .main .list-user{
         padding-bottom: 85px;
+        justify-content: space-between;
     }
     
     .mob .add{
@@ -801,7 +806,7 @@ img.mob{
     }
         
     .detail-user{
-        width: 42%;
+        width: 47%;
         margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
@@ -952,8 +957,10 @@ h2.title{
     justify-content: center;
     flex-direction: column;
     margin-top: 26px;
+    margin-bottom: 55px;
 }
 
 .main-title *{
     color: black;
+    font-weight: 600;
 }
