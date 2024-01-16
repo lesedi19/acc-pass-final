@@ -52,6 +52,8 @@ const FormComponent = () => {
        
     };
 
+
+    
     const onFinish = (values) => {
 
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
