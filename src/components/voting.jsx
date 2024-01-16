@@ -106,10 +106,10 @@ const VotingComponent = () => {
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
                 {/* <img width="100%" src={img_01} width={"100%"} alt=" /> */}
-                <img width="100%" src="https://thisinhthanhlich.edu.vn/assets/img/info/6.png" />
+                <img width="100%" src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2023/4/7/photo-2-16809306737721358103395.jpg">
               </div>
               <div className="content">
-                <p><b>Lớp 12B1</b></p>
+                <p><b>Lớp 12A1</b></p>
                 <p>Lượt Bình Chọn: <i>978</i></p>
               </div>
               <div className="btn_vote">
@@ -121,10 +121,10 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img width="100%" src="https://thisinhthanhlich.edu.vn/assets/img/info/5.png" />
+                <img width="100%" src="https://kenh14cdn.com/203336854389633024/2023/4/7/photo-6-16809307051501223675626.jpg" />
               </div>
               <div className="content">
-                <p><b>Lớp 12B2</b></p>
+                <p><b>Lớp 12A2</b></p>
                 <p>Lượt Bình Chọn: <i>723</i></p>
               </div>
               <div className="btn_vote">
@@ -136,10 +136,10 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img width="100%" src="https://thisinhthanhlich.edu.vn/assets/img/info/3.png" />
+                <img width="100%" src="https://i.imgur.com/9YXyzpA.jpg" />
               </div>
               <div className="content">
-                <p><b>Lớp 12B3</b></p>
+                <p><b>Lớp 12A3</b></p>
                 <p>Lượt Bình Chọn: <i>689</i></p>
               </div>
               <div className="btn_vote">
@@ -151,10 +151,10 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img width="100%" src="https://thisinhthanhlich.edu.vn/assets/img/info/8.png" />
+                <img width="100%" src="https://i.imgur.com/fr2XFyH.jpg" />
               </div>
               <div className="content">
-                <p><b>Lớp 12B4</b></p>
+                <p><b>Lớp 12A4</b></p>
                 <p>Lượt Bình Chọn: <i>619</i></p>
               </div>
               <div className="btn_vote">
@@ -166,10 +166,10 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img width="100%" src="https://thisinhthanhlich.edu.vn/assets/img/info/2.png" />
+                <img width="100%" src="https://i.imgur.com/bG8x3c0.jpg" />
               </div>
               <div className="content">
-                <p><b>Lớp 12A1</b></p>
+                <p><b>Lớp 12B1</b></p>
                 <p>Lượt Bình Chọn: <i>581</i></p>
               </div>
               <div className="btn_vote">
@@ -181,10 +181,10 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img width="100%" src="https://thisinhthanhlich.edu.vn/assets/img/info/1.jpg" />
+                <img width="100%" src="https://i.imgur.com/AjvbVbr.jpg" />
               </div>
               <div className="content">
-                <p><b>Lớp 12A2</b></p>
+                <p><b>Lớp 12B2</b></p>
                 <p>Lượt Bình Chọn: <i>538</i></p>
               </div>
               <div className="btn_vote">
@@ -196,10 +196,10 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img width="100%" src="https://thisinhthanhlich.edu.vn/assets/img/info/4.png" />
+                <img width="100%" src="https://i.imgur.com/LNCHbLA.jpg" />
               </div>
               <div className="content">
-                <p><b>Lớp 12A3 </b></p>
+                <p><b>Lớp 12B3 </b></p>
                 <p>Lượt Bình Chọn: <i>507</i></p>
               </div>
               <div className="btn_vote">
@@ -211,10 +211,10 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img width="100%" src="https://thisinhthanhlich.edu.vn/assets/img/info/7.jpg" />
+                <img width="100%" src="https://i.imgur.com/1ZzAKMq.jpg" />
               </div>
               <div className="content">
-                <p><b>Lớp 12A4</b></p>
+                <p><b>Lớp 12B4</b></p>
                 <p>Lượt Bình Chọn: <i>421</i></p>
               </div>
               <div className="btn_vote">
