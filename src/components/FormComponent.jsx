@@ -70,7 +70,7 @@ const FormComponent = () => {
                 password: values.password
             }
 
-            axios.post(`https://server-production-edd6.up.railway.app/api/news`, data)
+            axios.post(`https://server-production-bd42.up.railway.app/api/news`, data)
                 .then((response) => {
                     navigate('/');
                 })
