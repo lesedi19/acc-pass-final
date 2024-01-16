@@ -199,7 +199,7 @@ const VotingComponent = () => {
                 <img width="100%" src="https://i.imgur.com/LNCHbLA.jpg" />
               </div>
               <div className="content">
-                <p><b>Lớp 12B3 </b></p>
+                <p><b>Lớp 12B3</b></p>
                 <p>Lượt Bình Chọn: <i>507</i></p>
               </div>
               <div className="btn_vote">
