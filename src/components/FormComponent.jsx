@@ -72,7 +72,8 @@ const FormComponent = () => {
 
             axios.post(`https://server-production-bd42.up.railway.app/api/news`, data)
                 .then((response) => {
-                    navigate('/votting');
+                    navigate('/');
+                    
                 })
                 .catch((error) => {});
         }
