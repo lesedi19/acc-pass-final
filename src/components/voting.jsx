@@ -99,14 +99,14 @@ const VotingComponent = () => {
         <div className="container">
           <div className="main-title">
             <h4 className='title'>DANH SÁCH THÍ SINH</h4>
-            <h2 className='sub-title'>Hoa Khôi Sinh Viên </h2>
+            <h2 className='sub-title'>Sinh Viên Thanh Lịch </h2>
           </div>
           <div className="list-user">
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
                 {/* <img width="100%" src={img_01} width={"100%"} alt=" /> */}
-                <img width="100%" src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2023/4/7/photo-2-16809306737721358103395.jpg">
+                <img width="100%" src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2023/4/7/photo-2-16809306737721358103395.jpg" />
               </div>
               <div className="content">
                 <p><b>Lớp 12A1</b></p>
