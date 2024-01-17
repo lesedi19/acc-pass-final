@@ -961,6 +961,7 @@ h2.title{
 }
 
 .main-title *{
-    color: black;
+    color: white;
     font-weight: 600;
+    font-size: 27px;
 }

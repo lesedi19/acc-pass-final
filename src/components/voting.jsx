@@ -151,7 +151,7 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img width="100%" src="https://i.imgur.com/fr2XFyH.jpg" />
+                <img width="100%" src="https://i.imgur.com/bG8x3c0.jpg" />
               </div>
               <div className="content">
                 <p><b>Lớp 12A4</b></p>
@@ -166,7 +166,7 @@ const VotingComponent = () => {
 
             <div className="detail-user"  onClick={showAlert}>
               <div className="thumnail">
-                <img width="100%" src="https://i.imgur.com/bG8x3c0.jpg" />
+                <img width="100%" src="https://i.imgur.com/fr2XFyH.jpg" />
               </div>
               <div className="content">
                 <p><b>Lớp 12B1</b></p>
